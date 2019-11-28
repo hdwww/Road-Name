@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.MainController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="262.0" style="-fx-background-color: #ffffff;" styleClass="s">
+         <children>
+            <Pane prefHeight="29.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" />
+            <HBox alignment="CENTER" prefHeight="81.0" prefWidth="600.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Road name address inquiry service">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="26.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="70.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label alignment="CENTER" text="Road name">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="dongTxt" alignment="CENTER" prefHeight="27.0" prefWidth="167.0" promptText="동을 입력해주세요" style="-fx-background-radius: 100; -fx-border-color: #000000; -fx-border-radius: 100;" />
+                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="126.0" text="Building number">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="numberTxt" alignment="CENTER" prefHeight="27.0" prefWidth="82.0" promptText="번지수 입력" style="-fx-background-radius: 100; -fx-border-radius: 100; -fx-border-color: #000000;" />
+                  <Button mnemonicParsing="false" onAction="#zuso" prefHeight="22.0" prefWidth="70.0" style="-fx-background-radius: 100; -fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-radius: 100;" text="Search">
+                     <font>
+                        <Font name="Calibri Italic" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_LEFT" prefHeight="50.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="21.0" prefWidth="278.0" text="지번주소 ">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="CENTER" prefHeight="21.0" prefWidth="192.0" text="( a local address )">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="label2" alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="610.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_LEFT" prefHeight="50.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="21.0" prefWidth="276.0" text="도로명주소 ">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="CENTER" prefHeight="21.0" prefWidth="192.0" text="( Road name address )">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="600.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_LEFT" prefHeight="50.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="21.0" prefWidth="304.0" text="    우편번호">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="CENTER" prefHeight="21.0" prefWidth="192.0" text="(Zip code)">
+                     <font>
+                        <Font name="Calibri Bold Italic" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="label3" alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="600.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Pane prefHeight="76.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" styleClass="car" />
+         </children>
+      </VBox>
+   </children>
+</StackPane>

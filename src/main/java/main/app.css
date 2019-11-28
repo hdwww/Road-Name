@@ -1,0 +1,62 @@
+#loginPane, #registerPane {
+	-fx-background-color: #fff;
+
+	-fx-background-size: cover;
+}
+.registerPane{
+	
+	-fx-background-image: url(/livb/s.png);
+	-fx-background-size: STRETCH;
+	-fx-background-position: center;
+
+}
+
+#loginLabel, #registerTitle {
+	-fx-text-fill: 	 
+}
+
+.text-field {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
+#lg {
+
+}
+.j{
+	-fx-background-image: url(/livb/j.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center;
+		
+}
+.h{
+	-fx-background-image: url(/livb/h.jpg); 
+	-fx-background-size: cover ;
+	-fx-background-position: center;
+
+}.car{
+	-fx-background-image: url(/livb/doro.png); 
+	-fx-background-size: stretch   ;
+
+}.b{
+	-fx-background-image: url(/livb/b.png);
+	-fx-background-size: cover;
+	-fx-background-position: center;
+}
+.r{
+	-fx-background-image: url(/livb/r.png);
+	-fx-background-size: STRETCH;
+	-fx-background-position: center;
+}
+.s{
+	-fx-background-image: url(/livb/s.png);
+	-fx-background-size: STRETCH;
+	-fx-background-position: center;
+	
+	}
+
